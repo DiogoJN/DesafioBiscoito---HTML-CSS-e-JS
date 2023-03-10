@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  height: 83.9vh;
+  background: linear-gradient(89deg, #190361 0%, #BB00FF 100%);
+}
+
+main {
+  background: #FFFFFF;
+  width: 42.8rem;
+  height: 42.4rem;
+
+  margin: 0 auto;
+  margin-top: 12rem;
+}
+
+.hide {
+  display: none;
+}
+
+/* screen01 */
+
+.screen01 {
+  position: absolute;
+}
+
+.screen01 h1 {
+    position: relative;
+    width: 25.9rem;
+    font-family: 'Montserrat';
+    font-weight: bold;
+  
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+    
+    text-align: center;
+    color: #34355B;
+
+    margin: 4.8rem 8.5rem;
+}
+
+.screen01 p {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2rem;
+ 
+  text-align: center;
+  color: #34355B;
+  margin-top: -3rem;
+}
+
+.screen01 button img {
+  margin: 2rem 5.7rem;
+}
+
+button {
+  background-color: #FFFFFF;
+  border: none;
+}
+button:hover {
+  cursor: pointer;
+}
+
+.tremidinha:hover {
+  animation: tremer 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes tremer {
+  0% {transform: translate(1px,1px) rotate(0deg);}
+  10% {transform: translate(-1px,-2px) rotate(-1deg);}
+  20% {transform: translate(2px,1px) rotate(1deg);}
+  30% {transform: translate(-2px,-1px) rotate(0deg);;}
+  40% {transform: translate(2px,-1px) rotate(-1deg);}
+  50% {transform: translate(2px,0px) rotate(-1deg);}
+  60% {transform: translate(2px,2px) rotate(-1deg);}
+  70% {transform: translate(-1px,1px) rotate(-1deg);}
+  80% {transform: translate(-1px,2px) rotate(-1deg);}
+  90% {transform: translate(1px,-2px) rotate(-1deg);}
+  100% {transform: translate(1px,2px) rotate(-1deg);}
+}
+
+/* screen02 */
+
+.screen02 {
+  margin-top: -2rem;
+  height: 56.4rem;
+  background-color: white;
+}
+
+
+.screen02 h1 {
+  width: 29.7rem;
+  height: 5.8rem;
+
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  text-align: center;
+
+  color: #34355B;
+  margin: 0 auto;
+
+  padding-top: 4.8rem;
+
+}
+
+.screen02 p {
+  animation: insideOut 2s;
+
+  width: 27.3rem;
+  font-family: 'Dancing Script';
+  background: #E4EDF1;
+  box-shadow: 2px 2px 2px rgba(85, 85, 85, 0.5);
+
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  text-align: center;
+  color: #000000;
+
+  margin: 8rem 7.8rem;
+
+}
+
+.screen02 img {
+  margin: -40px 64px;
+}
+
+.screen02 #cookieBroken {
+  display: none;
+}
+
+.screen02 form {
+  margin: 90px 127px;
+}
+
+.screen02 button {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  
+  width: 174px;
+  height: 52px;
+
+  color: #FFFFFF;
+  background: #FF9500;
+  border-radius: 4px;
+}
+
+
+@keyframes insideOut {
+  0% {
+   transform: translateY(150px) scale(0);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
